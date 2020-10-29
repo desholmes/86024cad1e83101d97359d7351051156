@@ -226,11 +226,10 @@ a {
     .hero {
       padding: 25px 0px 60px 0px; } }
   .hero.fullscreen {
-    height: 100%;
-    background-position: 38% 110%;
-    background-image: url("/hero-bg-large.png");
-    background-repeat: no-repeat;
-    background-size: 162%; }
+    background-image: none;
+    display: flex;
+    background-image: none;
+    flex-grow: inherit; }
     @media screen and (min-width: 600px) {
       .hero.fullscreen {
         background-position: 149% 8%;
