@@ -307,8 +307,6 @@ a {
       background: #ffa115;
       border-color: #ffa115; }
   .product-space {
-    display: flex;
-    flex-grow: 1;
     color: #fff;
     background-color: #141d61;
     background-image: url("/space-bg.png");
@@ -319,8 +317,6 @@ a {
       background-size: cover, cover;
       background-position: center, center -5px; }
   .product-ocean {
-    display: flex;
-    flex-grow: 1;
     text-align: right;
     color: #e8f4fb;
     background-color: #065d88;
@@ -338,8 +334,6 @@ a {
         flex-direction: row;
         justify-content: flex-end; } }
   .product-medieval {
-    display: flex;
-    flex-grow: 1;
     color: #fff;
     background-color: #b56708;
     background-image: url("/medieval-bg.png");
